@@ -16,5 +16,8 @@ Preview of `NASU-Engineering/nasu_web` branch `feature/hub-platform-redesign` at
   Review Desk, and Admin → Role simulator to view each role exactly as it sees
   the Hub.
 
+Each build lives in its own folder (`b/<commit>/`) so browsers never mix a new page
+with cached scripts from an older build.
+
 Production (https://nasu-engineering.github.io/nasu_web/) is not affected by
 this repository.
