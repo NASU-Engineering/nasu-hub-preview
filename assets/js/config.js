@@ -10,8 +10,8 @@ export const CONFIG = {
   backend: 'mock',
 
   supabase: {
-    url: 'https://hfrnfkmlqxnajocxkzpq.supabase.co',
-    publishableKey: 'sb_publishable_NOxga9PRdHklzoNQmBtDCA_h8my5mML',
+    url: '', // preview: no backend connection at all
+    publishableKey: '',
 
     // supabase-js, loaded from the CDN only when backend === 'supabase'.
     clientUrl: 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/+esm',
@@ -41,6 +41,12 @@ export const CONFIG = {
   uploads: {
     maxMb: 50,
     accept: ['.pdf', '.jpg', '.jpeg', '.png', '.webp', '.doc', '.docx', '.ppt', '.pptx', '.xls', '.xlsx', '.txt'],
+  },
+
+  // Admin testing tools. The role simulator only ever uses mock data (see
+  // services/simulator.js); set to false to hide it.
+  features: {
+    roleSimulator: true,
   },
 
   // Legacy resource list from the original site, still read by the mock content.
