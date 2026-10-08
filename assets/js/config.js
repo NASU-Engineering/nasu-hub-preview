@@ -10,7 +10,7 @@ export const CONFIG = {
   backend: 'mock',
 
   supabase: {
-    url: '', // preview: no backend connection at all
+    url: '',
     publishableKey: '',
 
     // supabase-js, loaded from the CDN only when backend === 'supabase'.
