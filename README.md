@@ -1,7 +1,7 @@
 # NASU Freshmen Hub — public UX preview (mock build)
 
 Preview of `NASU-Engineering/nasu_web` branch `feature/hub-platform-redesign` at commit
-`4761409`, built in **mock mode**:
+`9e897e8`, built in **mock mode**:
 
 - No backend connection: the Supabase URL and key are blank in this build, so no
   request can reach the real Hub backend.
@@ -9,6 +9,9 @@ Preview of `NASU-Engineering/nasu_web` branch `feature/hub-platform-redesign` at
   in a fake demo account without contacting Microsoft. All people and content are
   sample data, kept only in your browser tab.
 - English and Arabic (RTL), five themes: the gear icon in the top bar.
+- Admin Control Center has four destinations (Overview · Students & Team · Content ·
+  Settings). Applications, presence and activity figures here are sample data; in the
+  real Hub they read "Not collected" until their database functions are approved.
 - Quizzes, Activities, XP and Leaderboards run on sample data here; in the real
   Hub they show "not live yet" until their backend is approved and built.
 - The demo account holds every role, so you land in the Admin Control Center.
